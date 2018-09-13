@@ -1,5 +1,4 @@
 #include "pxt.h"
-#include "MicroBit.h"
 
 using namespace pxt;
 
@@ -14,6 +13,6 @@ namespace banana {
     //%
     int banana_multiply(int bananas, int multiplier) {
         microbit_create_heap(MICROBIT_HEAP_END, MICROBIT_HEAP_END + multiplier);
-        return bananas * multiplier;
+        return 1;
     }
 }
